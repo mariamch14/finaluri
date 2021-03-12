@@ -1,0 +1,252 @@
+body{
+	width: 100%;
+	height:100%;
+}
+header{
+
+	padding:10 0px;
+	box-sizing: border-box;
+
+
+
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	background: rgba(0,0,0,.8);
+	border-top: 1px solid rgba(255,255,255.2);
+	border-bottom: : 1px solid rgba(255,255,255.2);
+
+}
+.nav{
+	position: sticky;
+	top: 10px;
+
+}
+nav ul li a{
+  
+display: block;
+color: #fff;
+padding: 0 25px;
+font-weight: bold;
+line-height: 50px;
+font-family: "BPG Banner ExtraSquare", sans-serif;
+}
+
+nav ul {
+	display: flex;
+
+}
+
+nav ul li a:hover, 
+nav ul li a.active
+
+
+{
+	background-color:blue;
+}
+.logo{
+	width: 100px;
+	height: 80px;
+	display: inline-block;
+}
+.m{
+	font-size: 30px;
+	display: inline;
+	padding-left: 10px;
+	color: blue;
+	text-shadow: 2px 2px 5px black;
+	font-family: 'Satisfy', cursive;
+}
+.banklib{
+	width: 300px;
+	height:50px;
+	padding-left: 700px;
+	display: inline-block;
+}
+
+.backim{
+	width: 1300px;
+	height: 450px;
+	padding-top: 40px;
+	padding-left: 25px;
+    position: absolute;
+    background-size: cover;
+}
+
+
+.sheidzine{
+	position: absolute;
+	padding-top: 200px;
+	padding-left: 200px;
+	font-size: 50px;
+	word-spacing: 8px;
+	color: #0000FF;
+	text-shadow: 2px 2px 5px white;
+    font-family: "BPG Banner ExtraSquare", sans-serif;
+
+}
+label.searchl{
+	
+    margin-left: 50px;
+	margin-top: 300px;
+}
+input.searchi{
+	width: 100%;
+	width: 700px;
+	padding: 12px 20px;
+	margin-left: 230px;
+	margin-top: 300px;
+	box-shadow: 1px 1px 1px rgb(201,199,199);
+	border: rgb(202,200,200) 1px solid ;
+	position: absolute;
+}
+.reclam{
+	width: 300px;
+	height: 500px;
+	display: inline-block;
+	margin-left: 100px;
+	}
+
+
+.geobank{
+	width: 300px;
+	height:150px;
+	padding-left: 50px;
+	padding-top: 30px;
+}
+.tbc{
+	width: 250px;
+	height:200px;
+	padding-left: 50px;
+	padding-top: 30px;
+}
+.ourc{
+	width: 800px;
+	height:400px;
+	padding-left: 50px;
+	margin-top: 500px;
+	display: inline-block;
+}
+
+.ourcomph{
+	font-size: 33px;
+	padding-top: 100px;
+	padding-left: 50px;
+    font-family: Pathway Gothic One;
+}
+.ourcompp{
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 50px;
+    font-family: Pathway Gothic One;
+}
+.ganvadeba{
+	padding-top: 20px;
+	padding-left: 100px;
+	text-shadow: 2px 2px 5px blue;
+	font-family: "BPG Banner ExtraSquare", sans-serif;
+}
+
+label{
+	margin-left: 110px;
+	margin-top: 10px;
+}
+input{
+	width: 100%;
+	padding: 12px 20px;
+	margin-left: 80px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 1px 1px 1px rgb(201,199,199);
+	border: rgb(202,200,200) 1px solid ;
+}
+.labelshadow{
+	text-shadow: 2px 2px 5px blue;
+}
+.forma{
+	margin-top: 50px;
+	color: black;
+}
+.textarea-block{
+	width: 100%;
+	padding: 12px 20px;
+	margin-left: 80px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 1px 1px 1px rgb(201,199,199);
+	border: rgb(202,200,200) 1px solid ;
+}
+.from-warp{
+	
+	max-width: 630px;
+	width: 100%;
+	width: 100%;
+}
+.click{
+	margin-left: 80px;
+	background-color: #2E2E2E;
+    color: #fff;
+    border: none;
+    width: 150px;
+    height: 52px;
+    font-size: 21px;
+
+}
+
+
+
+.bfoot{
+	position: relative;
+	width: 1348px;
+	height: 550px;
+	background-color: #2E4053 ;
+	margin-top: 100px;
+}
+
+label.sendl{
+    margin-left: 50px;
+	margin-top: 100px;
+}
+input.sendi{
+	width: 100%;
+	width: 700px;
+	padding: 12px 20px;
+	margin-top: 2px;
+	box-shadow: 1px 1px 1px rgb(201,199,199);
+	border: rgb(202,200,200) 1px solid ;
+	position: absolute;
+}
+.contactinf{
+	padding-top: 60px;
+}
+.sakontaqto{
+	color: white;
+	font-size: 20px;
+	padding-left: 50px;
+	font-family: "BPG Banner ExtraSquare", sans-serif;
+
+}
+.map{
+
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+.last{
+	width:  100%;
+	height: 30px;
+	background-color:#5D6D7E;
+	margin-top: 400px;
+	border-top: 1px solid white;
+}
+.lastex{
+	color: white;
+	position: absolute;
+	font-size: 11px;
+	padding-top: 10px;
+	padding-left: 1100px;
+    font-family: Pathway Gothic One;
+}
+

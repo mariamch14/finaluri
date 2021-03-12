@@ -1,0 +1,309 @@
+body{
+	width: 100%;
+	height:100%;
+}
+header{
+
+	padding:10 0px;
+	box-sizing: border-box;
+
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	background: rgba(0,0,0,.8);
+	border-top: 1px solid rgba(255,255,255.2);
+	border-bottom: : 1px solid rgba(255,255,255.2);
+    position: sticky;
+    top: 10px;
+}
+
+nav ul li a{
+  
+display: block;
+color: #fff;
+padding: 0 25px;
+font-weight: bold;
+line-height: 50px;
+font-family: "BPG Banner ExtraSquare", sans-serif;
+}
+
+nav ul {
+	display: flex;
+
+}
+
+nav ul li a:hover, 
+nav ul li a.active
+
+{
+	background-color:blue;
+}
+.logo{
+	width: 100px;
+	height: 80px;
+}
+
+.m{
+	font-size: 30px;
+	display: inline;
+	padding-left: 10px;
+	color: blue;
+	text-shadow: 2px 2px 5px black;
+	font-family: 'Satisfy', cursive;
+}
+.banklib{
+	width: 300px;
+	height:50px;
+	padding-left: 700px;
+	display: inline-block;
+}
+.p{
+	color:  white;
+	font-family: "BPG Banner ExtraSquare", sans-serif;
+}
+.p2{
+	font-size: 20px;
+	color:  #DFFF00;
+	font-family: "BPG Banner ExtraSquare", sans-serif;
+}
+.produdiv{
+	position: relative;
+	width: 1310px;
+	height: 750px;
+	margin-top: 100px; 
+	margin-left: 20px;
+}
+.box{
+	margin-left: 30px;
+}
+.produqcia{
+	padding-top: 20px;
+	padding-left: 60px;
+	font-size: 30px;
+	color: black;
+	text-shadow: 2px 2px 5px blue;
+	font-family: "BPG Banner ExtraSquare", sans-serif;
+}
+.lap{
+	width: 250px;
+	height: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+	border: 0.5px solid black;
+	box-shadow: 3px 3px 6px blue;
+	position: absolute;
+}
+.laptex{
+	position: absolute;
+	margin-top: 255px;
+	margin-left: 115px;
+	font-size: 25px;
+    color: black;
+	text-shadow: 2px 2px 5px blue;
+	font-family: "BPG Banner ExtraSquare", sans-serif;
+
+}
+.pc{
+	width: 250px;
+	height: 200px;
+	display: inline-block;
+	margin-left: 350px;
+	margin-top: 50px;
+	border: 0.5px solid black;
+	box-shadow: 3px 3px 6px blue;
+    position: absolute;
+
+}
+.pctext{
+	position: absolute;
+	margin-top: 255px;
+	margin-left: 387px;
+	font-size: 25px;
+    color: black;
+	text-shadow: 2px 2px 5px blue;
+	font-family: "BPG Banner ExtraSquare", sans-serif;
+}
+.komponentebi{
+	width: 250px;
+	height: 200px;
+	display: inline-block;
+	margin-left: 660px;
+	margin-top: 50px;
+	border: 0.5px solid black;
+	box-shadow: 3px 3px 6px blue;
+    position: absolute;
+
+}
+.pcomtex{
+	position: absolute;
+	margin-top: 255px;
+	margin-left: 700px;
+	font-size: 25px;
+    color: black;
+	text-shadow: 2px 2px 5px blue;
+    text-align: center;
+    font-family: "BPG Banner ExtraSquare", sans-serif;
+}
+
+.aqsesuarebi{
+	width: 250px;
+	height: 200px;
+	display: inline-block;
+	margin-left: 950px;
+	margin-top: 50px;
+	border: 0.5px solid black;
+	box-shadow: 3px 3px 6px blue;
+    position: absolute;
+}
+
+	.aqsesuatex{
+	position: absolute;
+	margin-top: 255px;
+	margin-left: 985px;
+	font-size: 25px;
+    color: black;
+	text-shadow: 2px 2px 5px blue;
+	text-align: center;
+	font-family: "BPG Banner ExtraSquare", sans-serif;
+}
+
+.box2{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.tv{
+	width: 250px;
+	height: 200px;
+	margin-left: 50px;
+	margin-top: 350px;
+	border: 0.5px solid black;
+	box-shadow: 3px 3px 6px blue;
+    position: absolute;	
+}
+.tvtex{
+	position: absolute;
+	margin-top: 552px;
+	margin-left: 80px;
+	font-size: 25px;
+    color: black;
+	text-shadow: 2px 2px 5px blue;
+	font-family: "BPG Banner ExtraSquare", sans-serif;
+}
+.camera{
+	width: 250px;
+	height: 200px;
+	margin-left: 350px;
+	margin-top: 350px;
+	border: 0.5px solid black;
+	box-shadow: 3px 3px 6px blue;
+    position: absolute;	
+    display: inline-block;
+}
+.ctex{
+	position: absolute;
+	margin-top: 552px;
+	margin-left: 380px;
+	font-size: 25px;
+    color: black;
+	text-shadow: 2px 2px 5px blue;
+	font-family: "BPG Banner ExtraSquare", sans-serif;
+}
+.mobile{
+	width: 250px;
+	height: 200px;
+	margin-left: 660px;
+	margin-top: 350px;
+	border: 0.5px solid black;
+	box-shadow: 3px 3px 6px blue;
+    position: absolute;	
+    display: inline-block;
+}
+.mobtex{
+	position: absolute;
+	margin-top: 552px;
+	margin-left: 715px;
+	font-size: 25px;
+    color: black;
+	text-shadow: 2px 2px 5px blue;
+	text-align: center;
+	font-family: "BPG Banner ExtraSquare", sans-serif;
+
+}
+.mobaq{
+	width: 250px;
+	height: 200px;
+	margin-left: 955px;
+	margin-top: 350px;
+	border: 0.5px solid black;
+	box-shadow: 3px 3px 6px blue;
+    position: absolute;	
+    display: inline-block;
+}
+.mobaqtex{
+	position: absolute;
+	margin-top: 552px;
+	margin-left: 1010px;
+	font-size: 25px;
+    color: black;
+	text-shadow: 2px 2px 5px blue;
+	text-align: center;
+	font-family: "BPG Banner ExtraSquare", sans-serif;
+}
+
+.bfoot{
+	position: relative;
+	width: 1348px;
+	height: 550px;
+	background-color: #2E4053 ;
+	margin-top: 60px;
+}
+
+label.sendl{
+    margin-left: 50px;
+	margin-top: 100px;
+}
+input.sendi{
+	width: 100%;
+	width: 700px;
+	padding: 12px 20px;
+	margin-top: 2px;
+	box-shadow: 1px 1px 1px rgb(201,199,199);
+	border: rgb(202,200,200) 1px solid ;
+	position: absolute;
+}
+.contactinf{
+	padding-top: 60px;
+}
+.sakontaqto{
+	color: white;
+	font-size: 20px;
+	padding-left: 50px;
+	font-family: "BPG Banner ExtraSquare", sans-serif;
+
+}
+.map{
+
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+.last{
+	width:  100%;
+	height: 30px;
+	background-color: #5D6D7E;
+	position: absolute;
+	margin-top: 400px;
+	border-top: 1px solid white;
+}
+.lastex{
+	color: white;
+	position: absolute;
+	font-size: 11px;
+	padding-top: 10px;
+	padding-left: 1100px;
+    font-family: Pathway Gothic One;
+}
+
